@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  color: #46483e;
+}
+
+a {
+  color: #448800;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.site-name {
+  font-size: 3.6rem;
+  margin: 0 0 6px;
+}
+
+.site-description {
+  margin: 0 0 6px;
+  color: #999;
+}
+
+.page-header {
+  padding: 72px 0 48px;
+  border-bottom: 1px #ccc solid;
+}
+
+.page-title {
+  color: #448800;
+}
+
+.page-body {
+  padding: 60px 0;
+}
+
+.page-footer {
+  margin-top: 24px;
+  padding: 48px 0;
+  color: #999;
+  border-top: 1px #eee solid;
+}

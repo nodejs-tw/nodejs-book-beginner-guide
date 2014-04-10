@@ -1,0 +1,17 @@
+extends layout
+
+block main
+  - each(chapters, function (chapter) {
+    - if (chapter.numer !== null) {
+      section.index-chapter
+        h2.index-chapter-name= 'Chapter ' + chapter.number + ': ' + chapter.name
+        - if (chapter.sections.length) {
+          ol.index-chapter-sections
+            - each(chapter.sections, function (section) {
+              li.index-chapter-section
+                a(href=chapter.uri + '#section-' + section.number)
+                  = section.name
+            - });
+        - }
+    - }
+  - });

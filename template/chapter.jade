@@ -1,0 +1,13 @@
+extends layout
+
+block main
+  h1.page-title
+    = chapter.name
+  - each(sections, function (section) {
+    section.section(id='section-' + section.number)
+      h3.section-title
+        a.section-link(href=chapter.uri + '#section-' + section.number)
+          i.fa.fa-link
+        = section.name
+      != section.content
+  - });
