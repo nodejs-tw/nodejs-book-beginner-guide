@@ -9,3 +9,5 @@ $ make server
 ```bash
 $ make
 ```
+
+這部份如果發現任何問題，請到 (poying/giik)(https://github.com/poying/giik) 發 issue。
