@@ -21,6 +21,11 @@ a {
   margin: 0 0 6px;
 }
 
+.site-name a {
+  color: #46483e;
+  text-decoration: none;
+}
+
 .site-description {
   margin: 0 0 6px;
   color: #999;

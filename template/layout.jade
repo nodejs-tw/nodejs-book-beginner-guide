@@ -17,7 +17,8 @@ html(lang="zh-TW")
       header.page-header
         .container
           h1.site-name
-            = book.name
+            a(href="/")
+              = book.name
           h2.site-description
             = book.description
           a(href="https://github.com/nodejs-beginner-guide")
