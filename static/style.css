@@ -45,3 +45,10 @@ a {
   color: #999;
   border-top: 1px #eee solid;
 }
+
+.page-alert {
+  background: #f5f5f5;
+  border-radius: 2px;
+  padding: 12px 24px;
+  margin-bottom: 48px;
+}
