@@ -1,5 +1,5 @@
 build:
-	@node_modules/.bin/giik source book
+	@npm run build
 
 server:
-	@node_modules/.bin/http-server book
+	@npm start
