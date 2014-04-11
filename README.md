@@ -33,6 +33,8 @@ $ npm start
 
 ### 產生靜態網頁
 
+NodeJS 版本必須是 v0.11.x
+
 ```bash
 $ npm run build
 ```
