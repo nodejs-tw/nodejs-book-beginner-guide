@@ -37,7 +37,8 @@ $ make
 ### 作者群 Auth
 
  * [Poying](https://github.com/poying)
- * [CaesarChi](https://github.com/clonncd)
+ * [CaesarChi](https://github.com/clonn)
+
 
 ### 貢獻文章 How To Contribute
 
