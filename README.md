@@ -34,10 +34,11 @@ $ make
 
 這部份如果發現任何問題，請到 [poying/giik](https://github.com/poying/giik) 發 issue。
 
-### 作者群 Auth
+### 貢獻者 Contributor
 
  * [Poying](https://github.com/poying)
  * [CaesarChi](https://github.com/clonn)
+ * [appleboy](https://github.com/appleboy)
 
 
 ### 貢獻文章 How To Contribute
