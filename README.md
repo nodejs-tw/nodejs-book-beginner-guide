@@ -19,17 +19,22 @@
   7. 完成簡易留言系統
   8. 搞定收工
 
+### 安裝 Npm 相關套件
+
+```bash
+$ npm install
+```
 
 ### 啟動 Server
 
 ```bash
-$ make server
+$ npm start
 ```
 
 ### 產生靜態網頁
 
 ```bash
-$ make
+$ npm run build
 ```
 
 這部份如果發現任何問題，請到 [poying/giik](https://github.com/poying/giik) 發 issue。
