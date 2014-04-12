@@ -13,6 +13,7 @@
   1. 使用 Express 建立網站
   2. Routing & Middleware
   3. 使用 Mongoose 存取資料
+  4. 獨立出 config.json
   4. 建立各個  Model
   5. 完成管理者登入
   6. 完成簡易文章系統
