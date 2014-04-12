@@ -2,6 +2,8 @@
 
 一本屬於繁體中文，從華人自身發起給予『Node.js 新手的學習手冊』。歡迎從底下列表開始讀取，如果沒有任何內容，表示目前缺少作者資料。
 
+實戰範例：[nodejs-tw/nodejs-book-beginner-guide-example](https://github.com/nodejs-tw/nodejs-book-beginner-guide-example) (完成到文章系統)
+
 ### 目錄 Index
 
 * 導覽
