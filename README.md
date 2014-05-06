@@ -7,7 +7,7 @@
 ### 目錄 Index
 
 * 導覽
-  1. [NodeJS 介紹](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/0-intro/nodejs.md)
+  1. [NodeJS 介紹](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/intro/nodejs.md)
   2. 安裝 NodeJS 環境
   3. JavaScript 快速入門
   4. npm 介紹
