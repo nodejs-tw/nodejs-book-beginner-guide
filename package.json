@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server book",
+    "start": "gitbook serve",
     "build": "giik source book"
   },
   "authors": [
@@ -16,6 +16,7 @@
     "giik": "0.0.3",
     "pygmentize-bundled": "~2.1.0",
     "jade": "~1.3.1",
-    "http-server": "~0.6.1"
+    "http-server": "~0.6.1",
+    "gitbook": "~0.4.2"
   }
 }
