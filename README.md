@@ -58,3 +58,8 @@ $ npm run build
 - 可以在 [issue](https://github.com/nodejs-tw/nodejs-book-beginner-guide/issues) 列表裡面看到目前書籍編寫方向，以及缺少人認領的部份
 - [Send a PR](https://help.github.com/articles/using-pull-requests)
 - 加入 Node.js 中文資料編寫的行列
+
+### 編寫規範 Convention
+
+- [編寫規範，字典對照表](https://github.com/nodejs-tw/nodejs-book-best-practice/blob/master/source/convention.md)
+
