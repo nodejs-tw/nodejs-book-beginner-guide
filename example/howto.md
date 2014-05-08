@@ -10,13 +10,13 @@ GitHub: [nodejs-tw/nodejs-book-beginner-guide-example](https://github.com/nodejs
 
 在 Windows 上安裝 Git 非常容易，我們到 [http://msysgit.github.com/](http://msysgit.github.com/) 下載最新版本的 `Git Source Code Mirror`，點擊安裝程式後會看到這個畫面。
 
-![msysgit](/images/msysgit-installer.png)
+![msysgit](images/msysgit-installer.png)
 
 直接 `Next` 到底！
 
 完成後我們可以在 `開始` 裡面找到 `Git bash`，我們之後的所有操作都會在這完成。
 
-![git bash](/images/gitbash.png)
+![git bash](images/gitbash.png)
 
 #### Debian/Ubuntu
 
