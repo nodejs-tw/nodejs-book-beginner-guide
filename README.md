@@ -35,16 +35,6 @@ $ npm install
 $ npm start
 ```
 
-### 產生靜態網頁
-
-NodeJS 版本必須是 v0.11.x
-
-```bash
-$ npm run build
-```
-
-這部份如果發現任何問題，請到 [poying/giik](https://github.com/poying/giik) 發 issue。
-
 ### 貢獻者 Contributor
 
  * [Poying](https://github.com/poying)
