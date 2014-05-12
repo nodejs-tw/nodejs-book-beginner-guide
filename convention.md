@@ -9,13 +9,14 @@
 ##專有名詞
 
 技術類專有名詞依循官方常見用法。
- 
+
 | English | 中文翻譯 | 程式碼 |
 | --- | --- | --- |
 | Node.js | Node.js | - |
 | JavaScript | JavaScript| - |
 | ECMAScript | ECMAScript| - |
 | npm | npm | - |
+| nvm | nvm | - |
 | package | package | - |
 | module | 模組 | - |
 | export | export | - |
@@ -30,7 +31,7 @@
 ##中英文混雜
 
 中英文夾雜時，必須要使用『半型空白』隔開，
- 
+
 ####中英文混搭專有名詞範例，
 
   此書獻給所有 Node.js 以及對於 JavaScript 熱愛的程式開發者
