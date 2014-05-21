@@ -17,6 +17,6 @@
   * [JavaScript null & undefined](javascript_tour/undefinednulljs.md)
 * npm 介紹
   * [npm 基本使用](npm_tour/intro_npm.md)
-  * [npm 進階介紹](npm_tour/parameter_npm.md)
+  * [npm 版本號介紹](npm_tour/version_npm.md)
 * [實戰範例](install/installNode.md)
   * [如何使用範例程式？](example/howto.md)
