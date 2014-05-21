@@ -27,6 +27,8 @@
 | - | 具名函式 | function fnName() {} |
 | - | 匿名函式 | var fn = function () {}; |
 | Array | 陣列 | [] |
+| null | null | null |
+| undefined | undefined | undefined |
 
 ##中英文混雜
 
