@@ -2,6 +2,7 @@
 
  * 2014/05/22
   * npm 說明增加
+  * npm version 前綴字符號介紹
   * null & undefined
   * Array
   * 更新以上 convention 部分資料
