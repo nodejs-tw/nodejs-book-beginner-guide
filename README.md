@@ -10,7 +10,7 @@
   1. [NodeJS 介紹](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/intro/nodejs.md)
   2. [安裝 NodeJS 環境](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/install/installNode.md)
   3. [JavaScript 快速入門](https://github.com/nodejs-tw/nodejs-book-beginner-guide/tree/master/javascript_tour)
-  4. npm 介紹
+  4. [npm 介紹](https://github.com/nodejs-tw/nodejs-book-beginner-guide/tree/master/npm_tour)
 * 實戰
   0. 如何使用範例程式？
   1. 使用 Express 建立網站
