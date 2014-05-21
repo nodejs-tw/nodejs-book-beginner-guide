@@ -26,7 +26,7 @@
 | Immediately-Invoked Function Expression | 立即函式 | (function () {})(); |
 | - | 具名函式 | function fnName() {} |
 | - | 匿名函式 | var fn = function () {}; |
-
+| Array | 陣列 | [] |
 
 ##中英文混雜
 
