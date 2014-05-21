@@ -2,6 +2,9 @@
 
  * 2014/05/22
   * npm 說明增加
+  * null & undefined
+  * Array
+  * 更新以上 convention 部分資料
  * 2014/05/13
   * 增加不同版本 Node.js 使用指令
   * 增加 JavaScript basic, 最初章節
