@@ -13,6 +13,8 @@
 * JavaScript 介紹
   * [JavaScript 介紹](javascript_tour/introjs.md)
   * [JavaScript 變數型別，宣告](javascript_tour/variablejs.md)
+  * [JavaScript Array](javascript_tour/array.md)
+  * [JavaScript null & undefined](javascript_tour/undefinednulljs.md)
 * npm 介紹
   * [npm 基本使用](npm_tour/intro_npm.md)
   * [npm 進階介紹](npm_tour/parameter_npm.md)
