@@ -62,12 +62,11 @@ npm 全域安裝指的是當此套件擁有指令模式的時候，可以使用 
 
     express test
 
-就可以使用 Express 指令產生新的專案 。
-另外如果希望安裝 express 舊有版本的時候，可以直接使用
+輸入上面的指令就可以用 Express 指令產生新的專案。
 
-    npm install express@3.8.0
+    npm install iloveck101
 
-輸入上面的指令 express 3.8.0 就會被安裝完成。如果是為於某個專案底下，同時 node project 中也有設定 package.json 的話，就可以直接使用，
+輸入上面的指令 iloveck101 就會被安裝完成。如果是位於某個專案底下，同時 node project 中也有設定 package.json 的話，就可以直接使用，
 
     npm install .
 
