@@ -54,7 +54,7 @@ $ npm tag -h
 $ npm install
 ```
 
-用於安裝 node module，描述如下，我們以 Express 為例
+用於安裝 node 模組，描述如下，我們以 Express 為例
 
 ```bash
 $ npm install express@3.8.0
@@ -94,13 +94,13 @@ $ npm install .
 $ npm list
 ```
 
-列出目前專案下安裝的 node module。
+列出目前專案下安裝的 node 模組。
 
 ```bash
 $ npm list
 ```
 
-列出目前專案下安裝的 node module 更新狀態。
+列出目前專案下安裝的 node 模組更新狀態。
 
 ```bash
 $ npm outdate --depth=0
