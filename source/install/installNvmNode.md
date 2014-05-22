@@ -11,6 +11,6 @@ nvm 全名為 Node.js version management, 主要就是可以透過 nvm 這個指
 
 ##測試
 
-接著測試nodeJS 是否正常執行
+接著測試 Node.js 是否正常執行
 
     node -v

@@ -41,7 +41,7 @@ $ nvm alias default v0.10.25
 
 ## 測試
 
-接著測試nodeJS 是否正常執行
+接著測試 Node.js 是否正常執行
 
 ```bash
 $ node -v

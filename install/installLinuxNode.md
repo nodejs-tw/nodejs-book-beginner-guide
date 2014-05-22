@@ -31,7 +31,7 @@ $ sudo apt-get install nodejs
 
 ## 測試
 
-接著測試nodeJS 是否正常執行
+接著測試Node.js 是否正常執行
 
 ```bash
 $ node -v

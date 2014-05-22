@@ -28,6 +28,6 @@ Linux 很適合作為 Node.js 的伺服器作業系統及開發環境。安裝�
 
 ##測試
 
-接著測試nodeJS 是否正常執行
+接著測試 Node.js 是否正常執行
 
     node -v
