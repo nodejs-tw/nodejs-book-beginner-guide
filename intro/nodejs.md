@@ -1,6 +1,6 @@
-#Node.js 介紹
+# Node.js 介紹
 
-##Node.js 歷史
+## Node.js 歷史
 
 Node.js 是一個高效能、易擴充的網站應用程式開發框架 (Web Application Framework) 。它誕生的原因，是為了讓開發者能夠更容易開發高延展性的網路服務，不需要經過太多複雜的調校、效能調整及程式修改，就能滿足網路服務在不同發展階段對效能的要求。
 
@@ -10,19 +10,21 @@ Node.js 本身就是採用 JavaScript 這個語言為主，JavaScript 主要是�
 
 瀏覽器的 JavaScript 與實現 CommonJS 規範的 Node.js 有何不同呢？瀏覽器的 JavaScript 提供 XMLHttpRequest ，讓程式可以和網頁伺服器建立資料傳輸連線，但這通常只能適用於網站開發的需求，因為我們只能用 XMLHttpRequest 與網頁伺服器通訊，卻無法利用它建立其他類型如 Telnet / FTP / NTP 的伺服器通訊。如果我們想開發網路服務程式，例如 SMTP 電子郵件伺服器，就必須使用 Sockets 建立 TCP (某些服務則用 UDP) 監聽及連線，其他程式語言如 PHP 、 Java 、 Python 、 Perl 及 Ruby 等，在標準開發環境中皆有提供 Sockets API ，而瀏覽器的 JavaScript 基於安全及貼近網站設計需求的考量下，並未將 Sockets 列入標準函式庫之中。 CommonJS 的規範填補這種基礎函式庫功能的空缺，遵循 CommonJS 規範的 Node.js 可以直接使用 Sockets API 建立各種網路服務程式。
 
-##Node.js 語言特性
+## Node.js 語言特性
 
 JavaScript 語言本身支援 Lambda 的特性，因此一個匿名函式 (anonymous function) 可以被儲存成一個變數，並當作參數傳遞給另一個函式。
 
-    var proc1 = function(op, x) {
-        return op(x);
-    }
-    
-    var op1 = function(x) { return x+1; }
-    var op2 = function(x) { return x*x; }
-    
-    proc1(op1, 3);  // result is 4
-    proc1(op2, 5);  // result is 25
+```javascript
+var proc1 = function(op, x) {
+    return op(x);
+}
+
+var op1 = function(x) { return x+1; }
+var op2 = function(x) { return x*x; }
+
+proc1(op1, 3);  // result is 4
+proc1(op2, 5);  // result is 25
+```
 
 另一個 JavaScript 開發者必須掌握的語言特性稱為 Closure 。
 
@@ -34,15 +36,15 @@ Node.js 符合 CommonJS 的規範，使得 Callback 方式易於實現，也能�
 
 Node.js對於資源的調校有所不同，當程式接收到一筆連線(connection)，會通知作業系統透過epoll, kqueue, /dev/poll,或select將連線保留，並且放入heap中配置，先讓連線進入休眠(Sleep)狀態，當系統通知時才會觸發連線的callback。這種處理連線方式只會佔用掉記憶體，並不會使用到CPU資源。另外因為採用Javascript 語言的特性，每個request都會有一個callback，如此可以避免發生Block的狀況發生。
 
-##Node.js 應用
+## Node.js 應用
 
 基於 Callback / Event-driven 特性，Node.js 大多應用於 Comet(long pulling) Request Server，或者是高連線數量的網路服務上，目前也有許多公司將 Node.js 設為內部核心網路服務之一。目前 Node.js 也開始有許多不同的應用使用在開放式硬體平台中，例如 [Raspberry Pi](www.raspberrypi.org/‎), [arduino](http://www.arduino.cc/) 等, 透過 Node.js 提供外掛管理 NPM (Node Package Management)，讓愛好 Node.js 輕易開發更多有趣的服務、外掛，並且提供到 NPM 讓全世界使用者快速安裝使用。關於 NPM 詳細說明之後我們會再提到。
 
-##Node.js 廠商資源
+## Node.js 廠商資源
 
 Node.js 目前是一個完全 [Open source 的專案](https://github.com/joyent/node)，可以在 [https://github.com/joyent/node](https://github.com/joyent/node) 找到相關資源，目前有許多公司已經投入開發人員進入 Node.js 核心開發，目前有 Yahoo, Microsoft ,Google, Joyent, Mozilla, Rackspace, Redhat 等廠商投入資源至 Node.js 核心開發，至於 Node.js 模組目前已有 70000 多個大大小小框架模組，提供開發者免費使用，其中不乏大型廠商例如 Microsof, MongoDB, MySQL 等投入官方版本的 Node.js 模組提供使用。
 
-##聲明
+## 聲明
 
 本書最後執行測試版本為 Node.js v0.10.25，相關API 文件可查詢`http://nodejs.org <http://nodejs.org>`
 本書所有範例均可於 Mac, Linux, Windows 上執行，如遇到任何問題歡迎至 `http://nodejs.tw <http://node.js.tw>`，詢問對於 Node.js 相關問題。
