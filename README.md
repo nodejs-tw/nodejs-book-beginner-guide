@@ -1,5 +1,7 @@
 ### Node.js Book for Beginner
 
+[![Gitter chat](https://badges.gitter.im/nodejs-tw/nodejs-book-beginner-guide.png)](https://gitter.im/nodejs-tw/nodejs-book-beginner-guide)
+
 一本屬於繁體中文，從華人自身發起給予『Node.js 新手的學習手冊』，書籍內使用的模組皆經過一段時間的驗證，不會在實戰範例中使用較新的技術。歡迎從底下列表開始讀取，如果沒有任何內容，表示目前缺少作者資料。
 
 實戰範例：[nodejs-tw/nodejs-book-beginner-guide-example](https://github.com/nodejs-tw/nodejs-book-beginner-guide-example) (完成到文章系統)
