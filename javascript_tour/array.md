@@ -15,7 +15,7 @@ var a = new Array('a', 'b', 'c');
 
 ```javascript
 console.log(a);
-//print: [0, 1, 2]
+//print: ["a", "b", "c"]
 ```
 
 Array 的排列指標從 0 開始，像上面的例子來說， a 的指標就有三個，0, 1, 2，如果要印出特定的某個陣列數值，使用方法如下
