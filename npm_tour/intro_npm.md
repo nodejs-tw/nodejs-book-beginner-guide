@@ -4,28 +4,29 @@ npm 在 Node.js v0.6.x 版本之後，就變成內建的系統之一，npm 全�
 
 ##npm 基本使用方法
 
-Node.js 其中好用的一個部份就是因為有 npm，擁有完整管理的架構，讓套件可以被妥善管理，每個專案間的 dependency 也可以妥當的被使用，目前在 npm 上也已經有 8000 多個模組，提供開發者使用。
+Node.js 其中好用的一個部份就是因為有 npm，擁有完整管理的架構，讓套件可以被妥善管理，每個專案間的 dependency 也可以妥當的被使用，目前在 npm 上也已經有 70000 多個模組，提供開發者使用。
 基於開發者不要重複自己造輪子，從 npm 上面找到適合自己的模組，就是開發者應該做的工作。
 
  * [npm 資料網站](https://npmjs.org/)
 
 可以從上面的網站找到許多套件，使用方法也非常簡單，內容詳細的項目，可以參考 npm 的說明，在終端機輸入 npm ，會得到如下的訊息，
 
-    where  is one of:
+    where <command> is one of:
         add-user, adduser, apihelp, author, bin, bugs, c, cache,
         completion, config, ddp, dedupe, deprecate, docs, edit,
         explore, faq, find, find-dupes, get, help, help-search,
-        home, i, info, init, install, la, link, list, ll, ln, login,
-        ls, outdated, owner, pack, prefix, prune, publish, r, rb,
-        rebuild, remove, restart, rm, root, run-script, s, se,
-        search, set, show, shrinkwrap, star, start, stop, submodule,
-        tag, test, tst, un, uninstall, unlink, unpublish, unstar,
-        up, update, version, view, whoami
+        home, i, info, init, install, isntall, issues, la, link,
+        list, ll, ln, login, ls, outdated, owner, pack, prefix,
+        prune, publish, r, rb, rebuild, remove, repo, restart, rm,
+        root, run-script, s, se, search, set, show, shrinkwrap,
+        star, stars, start, stop, submodule, t, tag, test, tst, un,
+        uninstall, unlink, unpublish, unstar, up, update, v,
+        version, view, whoami
 
-    npm  -h     quick help on
+    npm <cmd> -h     quick help on <cmd>
     npm -l           display full usage info
     npm faq          commonly asked questions
-    npm help   search for help on
+    npm help <term>  search for help on <term>
     npm help npm     involved overview
 
     Specify configs in the ini-formatted file:
@@ -61,12 +62,11 @@ npm 全域安裝指的是當此套件擁有指令模式的時候，可以使用 
 
     express test
 
-就可以使用 Express 指令產生新的專案 。
-另外如果希望安裝 express 舊有版本的時候，可以直接使用
+輸入上面的指令就可以用 Express 指令產生新的專案。
 
-    npm install express@3.8.0
+    npm install iloveck101
 
-輸入上面的指令 express 2.8.5 就會被安裝完成。如果是為於某個專案底下，同時 node project 中也有設定 package.json 的話，就可以直接使用，
+輸入上面的指令 iloveck101 就會被安裝完成。如果是位於某個專案底下，同時 node project 中也有設定 package.json 的話，就可以直接使用，
 
     npm install .
 

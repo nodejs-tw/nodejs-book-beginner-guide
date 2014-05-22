@@ -21,7 +21,7 @@
 | module | 模組 | - |
 | export | export | - |
 | closure | 閉包 | - |
-| CommonJS | ComonJS | - |
+| CommonJS | CommonJS | - |
 | Framework | 框架 | - |
 | Immediately-Invoked Function Expression | 立即函式 | (function () {})(); |
 | - | 具名函式 | function fnName() {} |
