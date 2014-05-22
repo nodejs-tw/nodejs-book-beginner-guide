@@ -40,6 +40,7 @@ $ npm start
  * [Poying](https://github.com/poying)
  * [CaesarChi](https://github.com/clonn)
  * [appleboy](https://github.com/appleboy)
+ * [CalvertYang](https://github.com/CalvertYang)
 
 
 ### 貢獻文章 How To Contribute
