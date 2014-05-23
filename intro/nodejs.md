@@ -19,8 +19,8 @@ var proc1 = function(op, x) {
     return op(x);
 }
 
-var op1 = function(x) { return x+1; }
-var op2 = function(x) { return x*x; }
+var op1 = function(x) { return x + 1; }
+var op2 = function(x) { return x * x; }
 
 proc1(op1, 3);  // result is 4
 proc1(op2, 5);  // result is 25
