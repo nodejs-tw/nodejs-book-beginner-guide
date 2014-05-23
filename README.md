@@ -54,8 +54,8 @@ $ npm start
 
 ### 編寫規範 Convention
 
-- [編寫規範，字典對照表](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/convention.md)
+- [編寫規範，字典對照表](convention.md)
 
-### Change log
+### 更新紀錄 Change log
 
- - [change logs](https://github.com/nodejs-tw/nodejs-book-beginner-guide/blob/master/source/changelog.md)
+ - [change logs](changelog.md)
