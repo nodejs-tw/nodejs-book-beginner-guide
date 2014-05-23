@@ -1,12 +1,14 @@
-#書籍寫作規範
+# 書籍寫作規範
 
-##章節標題設定
+## 章節標題設定
 
  * 章節標頭為 H1, #
  * 章節底下第一層目錄為 h2, ##
  * 章節底下第二層目錄為 h3, ###
 
-##專有名詞
+`#` 與標題間要保留 1 個空格。
+
+## 專有名詞
 
 技術類專有名詞依循官方常見用法。
 
@@ -67,18 +69,15 @@
 只有一行、不需要 Highlight，或是一般的 command line 操作指令說明，\
 使用標準 Code 寫法。
 
-    This is line One
-    This is line Two
+```
+This is line One
+This is line Two
+```
 
-片段程式碼（snippets），使用 inline code block，並指定 language type。
+使用 inline code block，並指定 language type。
 
-程式碼與 ``.. code-block`` 之間一定要隔一個空行，且一定要有程式碼（否則文件無法編譯）。
-
-.. code-block:: javascript
-
-    if (something) {
-      alert('test');
-    }
-
-.. literalinclude:: src/hello.js
-   :language: javascript
+```javascript
+if (something) {
+  alert('test');
+}
+```
