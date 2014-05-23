@@ -47,7 +47,7 @@
 
 #### 標點符號範例
 
-  Node.js 是一種適合用於 Server-side 的開發框架（Framework），相當 Nice！
+Node.js 是一種適合用於 Server-side 的開發框架（Framework），相當 Nice！
 
 ## 特殊排版說明
 
@@ -58,9 +58,7 @@
 
 ## 程式碼風格
 
-統一使用 [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
-
-(討論：#9cf7787)
+統一使用 [idiomatic.js](https://github.com/rwaldron/idiomatic.js) (討論：[#9cf7787](https://github.com/nodejs-tw/nodejs-book-beginner-guide/commit/9cf77875a00d3f255bd1b33a3fcf60f7238d992c))
 
 ## Markdown 風格
 
