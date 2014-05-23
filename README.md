@@ -39,10 +39,10 @@ $ npm start
 
 ### 貢獻者 Contributor
 
- * [Poying](https://github.com/poying)
- * [CaesarChi](https://github.com/clonn)
- * [appleboy](https://github.com/appleboy)
- * [CalvertYang](https://github.com/CalvertYang)
+* [Poying](https://github.com/poying)
+* [CaesarChi](https://github.com/clonn)
+* [appleboy](https://github.com/appleboy)
+* [CalvertYang](https://github.com/CalvertYang)
 
 
 ### 貢獻文章 How To Contribute
@@ -58,4 +58,4 @@ $ npm start
 
 ### 更新紀錄 Change log
 
- - [change logs](changelog.md)
+- [change logs](changelog.md)
