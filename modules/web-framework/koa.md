@@ -70,8 +70,9 @@ koa-router 允許我們建立很多 router 然後指派不同的 path 上面，�
 
 ```javascript
 // koa-router README.md
-var APIv1 = new Router();
-var APIv2 = new Router();
+var APIv1 = new Router(),
+  APIv2 = new Router();
+
 APIv1.get(‘/sign-in’, function *() {
   // …
 });
@@ -85,14 +86,15 @@ app.use(mount(‘/v2', APIv2.middleware()));
 這邊示範如何用 koa 原生的方式做到類似的事情，其實就只是多一個 middleware 而已。
 
 ```javascript
-var app = koa();
-var api = {};
+var app = koa(),
+  api = {};
+
 api.v1 = appToMiddleware(koa());
 api.v2 = appToMiddleware(koa());
 app.use(function *(next) {
   // 取得版本號
-  var match = this.url.match(/\/v\d+/);
-  var v = match && match[1];
+  var match = this.url.match(/\/v\d+/),
+    v = match && match[1];
 
   if (v && api[v]) {
     // 如果版本號存在，就把執行這個 sub app。
@@ -107,13 +109,13 @@ app.use(function *(next) {
 // 將 app 轉成可被 use 的 middleware
 function appToMiddleware(app) {
   // 取得 app 的所有 middleware，這邊會是一個 Arry
-  var middleware = app.middleware;
-  var len = middleware.length;
+  var middleware = app.middleware,
+    len = middleware.length;
   // 回傳 middleware
   return function *(next) {
     // 多建立 len 只是想避免重複計算陣列長度
-    var i = len;
-    var curr;
+    var i = len,
+      curr;
     while (i—) {
       // curr 會是一個 generator function。
       // 用當前 context 還有 “上一個” middleware 取得 generator。
@@ -188,8 +190,8 @@ $ npm install --save koa koa-router
 
 ```javascript
 // app.js
-var koa = require('koa');
-var router = require('koa-router');
+var koa = require('koa'),
+  router = require('koa-router');
 ```
 
 #### 5. 建立 app
