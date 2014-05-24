@@ -13,6 +13,12 @@
   2. [安裝 Node.js 環境](./install/installNode.md)
   3. [JavaScript 快速入門](./javascript_tour)
   4. [npm 介紹](./npm_tour)
+* 模組介紹
+  1. Web Framework
+    1. Sails.js
+    2. Koa
+  2. ECMAScript 6
+    1. Generators
 * 實戰
   0. 如何使用範例程式？
   1. 使用 Express 建立網站
