@@ -16,7 +16,7 @@ JavaScript 語言本身支援 Lambda 的特性，因此一個匿名函式 (anony
 
 ```javascript
 var proc1 = function(op, x) {
-    return op(x);
+  return op(x);
 }
 
 var op1 = function(x) { return x + 1; }

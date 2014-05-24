@@ -80,7 +80,7 @@ Boolean(undefined);
 var a;
 
 if (!a) {
-    console.log('a is not existed');
+  console.log('a is not existed');
 }
 
 //print: a is not existed

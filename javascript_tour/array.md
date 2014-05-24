@@ -118,7 +118,7 @@ a = a.concat(b);
 var a = ['a', 'b', 'c'];
 
 for(var i=0; i < a.length; i++) {
-    console.log(a[i]);
+  console.log(a[i]);
 }
 
 //print: a
@@ -132,7 +132,7 @@ for(var i=0; i < a.length; i++) {
 var a = ['a', 'b', 'c'];
 
 a.forEach(function (val, idx) {
-    console.log(val, idx);
+  console.log(val, idx);
 });
 
 /*

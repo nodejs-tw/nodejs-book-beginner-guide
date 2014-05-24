@@ -28,7 +28,7 @@ b = 'abc';
 
 ```javascript
 var a = true,
-    b = false;
+  b = false;
 ```
 
 ## 數字型別
@@ -37,7 +37,7 @@ Number 數字型別，可以分為整數，浮點數兩種
 
 ```javascript
 var a = 123,
-    b = 123.456;
+  b = 123.456;
 ```
 
 ## 字串型別
@@ -46,7 +46,7 @@ var a = 123,
 
 ```javascript
 var a = "a",
-    a = 'abc';
+  a = 'abc';
 ```
 
 ## 運算子
@@ -81,10 +81,10 @@ Boolean(判斷);
 
 ```javascript
 var a = 123,
-    b = '123';
+  b = '123';
 
 if (a == b) {
-    console.log('ok');
+  console.log('ok');
 }
 ```
 
@@ -101,9 +101,9 @@ $ node test.js
 
 ```javascript
 if (a === b) {
-    console.log('ok');
+  console.log('ok');
 } else {
-    console.log('not ok');
+  console.log('not ok');
 }
 // print: not ok
 ```
