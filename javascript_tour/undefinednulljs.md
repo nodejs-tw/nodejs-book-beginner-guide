@@ -39,12 +39,12 @@ null, undefined 在本質上差異並不大，不過實質上兩者並不同，�
 
 ```javascript
 var a = null,
-    b;
+  b;
 
 if (a === b) {
-    console.log('same');
+  console.log('same');
 } else {
-    console.log('different');
+  console.log('different');
 }
 
 //print: different
