@@ -46,5 +46,5 @@ Node.js 目前是一個完全 [Open source 的專案](https://github.com/joyent/
 
 ## 聲明
 
-本書最後執行測試版本為 Node.js v0.10.25，相關API 文件可查詢 http://nodejs.org
-本書所有範例均可於 Mac, Linux, Windows 上執行，如遇到任何問題歡迎至 http://nodejs.tw，詢問對於 Node.js 相關問題。
+本書最後執行測試版本為 Node.js v0.10.25，相關 API 文件可查詢 [Node.js 官方網站](http://nodejs.org)。
+本書所有範例均可於 Mac, Linux, Windows 上執行，如遇到任何問題歡迎至 [Node.js Taiwan](http://nodejs.tw) 詢問對於 Node.js 相關問題。
