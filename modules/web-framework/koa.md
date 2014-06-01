@@ -10,10 +10,9 @@ Koa 或許可能還不是很多人知道，但是 Express 大家應該聽過。K
 
 ## Middleware 機制
 
-koa 的 middleware 機制使用了 ECMAScript 6 的 Generators，在想法上面大致與 Connect 相同但還是有一些差異存在，在 Connect 裡每個 Middleware 中只要呼叫了 next 通常後面程式碼我們就不會讓他繼續執行，因為我們不想讓同一時間同一個 request 處理兩件事情，所以 next 也可以看作是當前 Middleware 的 “__終止__”，但在 koa 裡面就不是這樣，next 在這邊不是終止，而是 “__暫停__”，這其實是一個 Generators 的特性。這小小的特性改變會造成我們在解決問題時思考上面的差異，先看看這兩張圖片，第一張是 Connect 的運作方式，第二張是 koa 的運作方式
+koa 的 middleware 機制使用了 ECMAScript 6 的 Generators，在想法上面大致與 Connect 相同但還是有一些差異存在，在 Connect 裡每個 Middleware 中只要呼叫了 next 通常後面程式碼我們就不會讓他繼續執行，因為我們不想讓同一時間同一個 request 處理兩件事情，所以 next 也可以看作是當前 Middleware 的 “__終止__”，但在 koa 裡面就不是這樣，next 在這邊不是終止，而是 “__暫停__”，這其實是一個 Generators 的特性。這小小的特性改變會造成我們在解決問題時思考上面的差異，先看看這張圖片，他展示了我們程式帶著 `context` 所執行的方式
 
-![middlwware](/images/koa/1.png)
-![middlwware](/images/koa/2.png)
+![middlwware](/images/middleware.png)
 
 ## 常用 Middleware
 
