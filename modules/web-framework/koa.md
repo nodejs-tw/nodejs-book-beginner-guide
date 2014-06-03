@@ -115,7 +115,7 @@ function appToMiddleware(app) {
     // 多建立 len 只是想避免重複計算陣列長度
     var i = len,
       curr;
-    while (i—-) {
+    while (i--) {
       // curr 會是一個 generator function。
       // 用當前 context 還有 “上一個” middleware 取得 generator。
       // 最後被執行的 middleware 會先被產生然後包在最內層
