@@ -18,5 +18,7 @@
 * npm 介紹
   * [npm 基本使用](npm_tour/intro_npm.md)
   * [npm 版本號介紹](npm_tour/version_npm.md)
+* Sails.js 框架使用
+  * [i18n 多國語系](sailsjs/i18n.md)
 * [實戰範例](install/installNode.md)
   * [如何使用範例程式？](example/howto.md)
