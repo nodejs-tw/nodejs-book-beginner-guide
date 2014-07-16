@@ -15,7 +15,7 @@
   4. [npm 介紹](./npm_tour)
 * 模組介紹
   1. Web Framework
-    1. Sails.js
+    1. [Sails.js](./sailsjs)
     2. [Koa](./modules/web-framework/koa.md)
   2. ECMAScript 6
     1. Generators
